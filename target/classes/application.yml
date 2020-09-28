@@ -1,0 +1,20 @@
+
+spring:
+ flyway:
+    enabled: true
+    schemas: grisha
+ jpa:
+  hibernate:
+       ddl-auto: validate
+       dialect: org.hibernate.dialect.PostgreSQL95Dialect
+  properties:
+    hibernate:
+      default_schema: grisha
+      temp:
+       use_jdbc_metadata_defaults: false
+ datasource:
+  url: jdbc:postgresql://localhost:5555/postgres
+  username: postgres
+  password: postgres
+server:
+  port: 8081
