@@ -2,14 +2,14 @@
 spring:
  flyway:
     enabled: true
-    schemas: grisha
+    schemas: database_schema
  jpa:
   hibernate:
        ddl-auto: validate
        dialect: org.hibernate.dialect.PostgreSQL95Dialect
   properties:
     hibernate:
-      default_schema: grisha
+      default_schema: database_schema
       temp:
        use_jdbc_metadata_defaults: false
  datasource:
