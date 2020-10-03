@@ -18,3 +18,10 @@ spring:
   password: postgres
 server:
   port: 8081
+
+crnk:
+  path-prefix: /api/v1
+  jpa:
+    expose-all: false
+  security:
+    enabled: false

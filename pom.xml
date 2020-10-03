@@ -87,8 +87,61 @@
             <artifactId>hibernate-entitymanager</artifactId>
             <version>5.4.10.Final</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-core</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-setup-spring-boot2</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-data-jpa</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-validation</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-home</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-operations</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-security</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-data-facet</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
+        <dependency>
+            <groupId>io.crnk</groupId>
+            <artifactId>crnk-client</artifactId>
+            <version>3.1.20191113192440</version>
+        </dependency>
 
+
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>repository.spring.plugins-release</id>
+            <name>Spring GA Repository</name>
+            <url>https://repo.spring.io/plugins-release/</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
